@@ -1,0 +1,266 @@
+body{
+  display: flexbox;
+  margin: 0;
+  padding: 10px;
+  height: 100vh;
+  width: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(25, 25, 94);
+}
+.heading{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  margin: 10px;
+  background-color: rgb(12, 12, 63);
+  color: white;
+  border-radius: 25px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color:rgb(23, 23, 58);
+  padding:20px;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.task-input {
+  width: 400px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: rgb(187, 187, 211);
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+
+}
+.task-input:focus{
+  outline: none;
+  border-color:aqua;
+  box-shadow: 0 0 10px aqua;
+}
+.main .app p{
+  color: yellow;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 20px;
+}
+.main .contact ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  color: white;
+  margin: 20px;
+}
+
+.main .contact ul li {
+  text-decoration: none;
+  color: white;
+  margin:20px;  
+}
+.main .contact ul li a{
+  text-decoration: underline;
+  font-size: 15px;
+  margin:20px;
+
+}
+
+
+
+.main .about {
+  color: white;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 17px;
+  width: 600px;
+}
+.card {
+  background-color: rgb(73, 73, 155);
+  height: 150px;
+  width: 200px;
+  border-radius: 15px;
+  margin:40px;
+
+}
+.card .text-input {
+  height: 150px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: rgb(73, 73, 155);
+}
+.card .text-input:focus{
+  outline: none;
+      border-color: #3498db;
+      box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+.text-input {
+  overflow: hidden;
+  color: white;
+  font-size: 17px;
+  padding: 5px;
+  
+  font-weight: bold;
+}
+
+
+.btn-container{
+  margin:10px;
+}
+
+.btn-container button {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(39, 109, 62);
+  border-radius: 50%;
+  color: white;
+  font-size: 4em;
+  border: none;
+  
+}
+.btn-container button:hover {
+  background-color: rgb(141, 216, 29);
+  transition: 0.5s;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.date {
+  color:rgb(125, 125, 148);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.remove-btn {
+  background-color: rgb(180, 43, 18);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 30px;
+  font-size: 10px;
+  width: 50px;
+  height: 20px;
+}
+.remove-btn:hover {
+  background-color: rgb(243, 41, 5);
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+nav ul li{
+  margin: 20px;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+color: greenyellow;
+transition: 0.5s;
+}
+
+.regular-burger-menu{
+  
+  margin-left:60px;
+}
+.heading span {
+  color: greenyellow;
+}
+
+
+.regular-menu-items ul a {
+  text-decoration: none;
+  color: white;
+}
+.count{
+  
+  margin-top: px;
+  width: 300px;
+  border-radius: 15px;
+  color: rgb(201, 223, 192);
+  padding: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footer-menu-items ul{
+  margin: 50px;
+  list-style: none;
+ 
+}
+.footer-menu-items ul  li{
+  margin: 10px;
+  
+}
+.footer-menu-items ul  li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 15px;
+  margin-top: 150px;
+  font-size: 10px;
+ 
+  
+}
+
+
+@media screen and (max-width: 540px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .task-input {
+    width: 100%;
+  }
+
+  .btn-container {
+    margin-top: 10px;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  .card {
+    margin: 25px 0;
+  }
+
+  .regular-menu-items {
+    display: none;
+  }
+  .btn-container button {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+}
+
+}
