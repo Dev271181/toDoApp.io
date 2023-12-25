@@ -5,7 +5,7 @@ body{
   height: 100vh;
   width: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: rgb(25, 25, 94);
+  background-color: rgb(29, 28, 28);
 }
 .heading{
   display: flex;
@@ -13,7 +13,7 @@ body{
   align-items: center;
   height: 50px;
   margin: 10px;
-  background-color: rgb(12, 12, 63);
+  background-color: black;
   color: white;
   border-radius: 25px;
 }
@@ -23,7 +23,7 @@ body{
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
-  background-color:rgb(23, 23, 58);
+  background-color:black;
   padding:20px;
   width: auto;
   margin-top: 20px;
@@ -83,7 +83,7 @@ body{
   width: 600px;
 }
 .card {
-  background-color: rgb(73, 73, 155);
+  background-color: rgb(171, 170, 170);
   height: 150px;
   width: 200px;
   border-radius: 15px;
@@ -94,7 +94,7 @@ body{
   height: 150px;
   width: 200px;
   border-radius: 15px;
-  background-color: rgb(73, 73, 155);
+  background-color: rgb(97, 97, 98);
 }
 .card .text-input:focus{
   outline: none;
@@ -118,7 +118,7 @@ body{
 .btn-container button {
   height: 70px;
   width: 70px;
-  background-color: rgb(39, 109, 62);
+  background-color: rgb(5, 48, 19);
   border-radius: 50%;
   color: white;
   font-size: 4em;
